@@ -1,33 +1,32 @@
-# Trace Game File
+# Trace()
 
-## Описание
+## Description
 
-Эта игра была разработана в рамках Flash Forward Jam 2023 и представляет собой захватывающий изометрический шутер, созданный на языке ActionScript 3.0. Следуйте за изменениями, раскрывая миры(swf файлы) и наслаждаясь динамичным геймплеем.
+This game was developed as part of Flash Forward Jam 2023 and is an exciting isometric shooter created in ActionScript 3.0. Follow the changes, revealing worlds (swf files) and enjoying dynamic gameplay.
 
-## Дата выпуска
+## Date of issue
 
-Игра будет выпущена 20 апреля в рамках Flash Forward Jam 2023.
+The game will be released on April 20 as part of Flash Forward Jam 2023.
 
-## Особенности
+## Peculiarities
 
-- **Изометрический Шутер:** Погрузитесь в захватывающий мир изометрического шутера, предлагающего уникальный взгляд на динамичные бои.
-- **ActionScript 3.0:** Реализована на последней версии ActionScript, обеспечивая высокую производительность и возможности разработки.
-- **Эффектные Графика и Анимации:** Наслаждайтесь красочными визуальными эффектами и плавными анимациями, делающими игровой процесс увлекательным.
-- **Flash Forward Jam 2023:** Разработана специально для участия в Flash Forward Jam 2023, чтобы подчеркнуть творческий потенциал и инновации.
+- **Isometric Shooter:** Immerse yourself in the immersive world of an isometric shooter that offers a unique take on fast-paced combat.
+- **ActionScript 3.0:** Implemented the latest version of ActionScript, providing high performance and development capabilities.
+- **Stunning Graphics and Animations:** Enjoy colorful visuals and smooth animations that make the gameplay fun.
+- **Flash Forward Jam 2023:** Designed specifically for Flash Forward Jam 2023 to highlight creativity and innovation.
 
-## Установка
+## Installation
 
-1. Клонируйте репозиторий: [trace-game-file.git](https://github.com/mtv129/trace_game_file/)
-2. Откройте проект в вашей среде разработки, поддерживающей ActionScript 3.0.
-3. Запустите игру, используя ваш Flash Player.
+1. Clone the repository: [trace-game-file.git](https://github.com/mtv129/trace_game_file/)
+2. Open the project in your development environment that supports ActionScript 3.0.
+3. Launch the game using your Flash Player.
 
-## Требования
+## Requirements
 
 - Flash Player
-- Среда разработки (например, Adobe Animate)
+- Development environment (for example, Adobe Animate)
 
-## Использование
-
-1. Запустите игру.
-2. Следуйте инструкциям на экране.
-3. Наслаждайтесь динамичным геймплеем и уникальным опытом от изометрического шутера.
+## Usage
+1. Launch the game.
+2. Follow the instructions on the screen.
+3. Enjoy fast-paced gameplay and a unique isometric shooter experience.
