@@ -6,39 +6,32 @@
 
 		public var dungeonMap: Array;
 		public var mapLock: Array;
-		public var mapOne: Array; // Новый массив mapOne
-		public var mapMain: Array; // Новый массив mapMain
-		public const MAP_WIDTH: int = 10;
-		public const MAP_HEIGHT: int = 10;
+		public var mapOne: Array; 
+		public var mapMain: Array; 
+		public const MAP_WIDTH: int = 65;
+		public const MAP_HEIGHT: int = 65;
 
 		public function mapSym_1() {
 			generateDungeon(30);
-			printMapValues(dungeonMap);
-			trace("####################");
-			printMapValues(mapLock);
-			trace("####################");
-			printMapValues(mapOne);
-			trace("####################");
-			printMapValues(mapMain);
 		}
 
 		public function generateDungeon(totalRooms: int): void {
 			dungeonMap = new Array(MAP_HEIGHT);
 			mapLock = new Array(MAP_HEIGHT);
-			mapOne = new Array(MAP_HEIGHT); // Инициализация mapOne
-			mapMain = new Array(MAP_HEIGHT); // Инициализация mapMain
+			mapOne = new Array(MAP_HEIGHT);
+			mapMain = new Array(MAP_HEIGHT); 
 
 			for (var i: int = 0; i < MAP_HEIGHT; i++) {
 				dungeonMap[i] = new Array(MAP_WIDTH);
 				mapLock[i] = new Array(MAP_WIDTH);
-				mapOne[i] = new Array(MAP_WIDTH); // Инициализация mapOne
-				mapMain[i] = new Array(MAP_WIDTH); // Инициализация mapMain
+				mapOne[i] = new Array(MAP_WIDTH); 
+				mapMain[i] = new Array(MAP_WIDTH);
 
 				for (var j: int = 0; j < MAP_WIDTH; j++) {
 					dungeonMap[i][j] = 0;
 					mapLock[i][j] = 0;
-					mapOne[i][j] = 0; // Инициализация mapOne
-					mapMain[i][j] = 0; // Инициализация mapMain
+					mapOne[i][j] = 0;
+					mapMain[i][j] = 0;
 				}
 			}
 
@@ -55,7 +48,6 @@
 			placeRoom(4);
 			placeRoom(5);
 
-			// Заполним mapLock в соответствии с dungeonMap
 			for (var row: int = 0; row < MAP_HEIGHT; row++) {
 				for (var col: int = 0; col < MAP_WIDTH; col++) {
 					if (dungeonMap[row][col] == 6) {
@@ -65,7 +57,6 @@
 				}
 			}
 
-			// Заполним mapOne в соответствии с dungeonMap
 			for (row = 0; row < MAP_HEIGHT; row++) {
 				for (col = 0; col < MAP_WIDTH; col++) {
 					if (dungeonMap[row][col] == 1) {
@@ -74,7 +65,6 @@
 				}
 			}
 
-			// Заполним mapMain в соответствии с dungeonMap
 			for (row = 0; row < MAP_HEIGHT; row++) {
 				for (col = 0; col < MAP_WIDTH; col++) {
 					if (dungeonMap[row][col] == 6) {
@@ -82,6 +72,7 @@
 					}
 				}
 			}
+		
 		}
 
 		public function generateRandomPaths(x: int, y: int, totalRooms: int, dx: int, dy: int): void {
@@ -138,7 +129,6 @@
 		}
 
 		public function setAdjacentRoomsLock(row: int, col: int): void {
-			// Устанавливаем 1 вокруг комнаты (row, col)
 			for (var i: int = -1; i <= 1; i++) {
 				for (var j: int = -1; j <= 1; j++) {
 					var newRow: int = row + i;

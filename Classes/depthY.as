@@ -19,7 +19,7 @@
 			for (var i: int = 0; i < parent.numChildren; i++) {
 				var obj: DisplayObject = parent.getChildAt(i);
 
-				if (!(obj is issomCube) && obj != this && obj.parent == parent) {
+				if (!(obj is cubeMap) &&  obj != this && obj.parent == parent) {
 					setDepth(obj, Math.floor(obj.y));
 				}
 			}
@@ -31,8 +31,10 @@
 		}
 
 		private function onAddedToStage(event: Event): void {
-			removeEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
 			init();
+		}
+		public function removeEv(){
+			removeEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
 		}
 	}
 }
