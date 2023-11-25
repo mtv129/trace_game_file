@@ -13,7 +13,7 @@ The game will be released on April 20 as part of Flash Forward Jam 2024.
 - **Isometric Shooter:** Immerse yourself in the immersive world of an isometric shooter that offers a unique take on fast-paced combat.
 - **ActionScript 3.0:** Implemented the latest version of ActionScript, providing high performance and development capabilities.
 - **Stunning Graphics and Animations:** Enjoy colorful visuals and smooth animations that make the gameplay fun.
-- **Flash Forward Jam 2023:** Designed specifically for Flash Forward Jam 2023 to highlight creativity and innovation.
+- **Flash Forward Jam 2024:** Designed specifically for Flash Forward Jam 2023 to highlight creativity and innovation.
 
 ## Installation
 
