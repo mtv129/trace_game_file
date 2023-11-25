@@ -2,11 +2,11 @@
 
 ## Description
 
-This game was developed as part of Flash Forward Jam 2023 and is an exciting isometric shooter created in ActionScript 3.0. Follow the changes, revealing worlds (swf files) and enjoying dynamic gameplay.
+This game was developed as part of Flash Forward Jam 2024 and is an exciting isometric shooter created in ActionScript 3.0. Follow the changes, revealing worlds (swf files) and enjoying dynamic gameplay.
 
 ## Date of issue
 
-The game will be released on April 20 as part of Flash Forward Jam 2023.
+The game will be released on April 20 as part of Flash Forward Jam 2024.
 
 ## Peculiarities
 
